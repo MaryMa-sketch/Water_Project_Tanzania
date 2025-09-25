@@ -5,13 +5,13 @@
 In this project, we develop machine learning models to **predict the functionality status of water pumps across Tanzania**.  
 
 The goal is to identify which pumps are:  
-- **Functional**  
-- **Functional but in need of repair**  
-- **Non-functional**  
+   - **Functional**  
+   - **Functional but in need of repair**  
+   - **Non-functional**  
 
-- Analyze which factors most strongly influence water pump functionality
-- Create geospatial visualizations to communicate findings effectively
-- Deploy a simple dashboard to showcase models and insights
+   - Analyze which factors most strongly influence water pump functionality
+   - Create geospatial visualizations to communicate findings effectively
+   - Deploy a simple dashboard to showcase models and insights
 
 This helps improve maintenance planning and ensure communities have access to clean water.  
 
@@ -44,25 +44,25 @@ cd Water_Project_Tanzania
 
 ### **2. Create a virtual environment**
 
-- python -m venv env
-- source env/Scripts/activate    # Windows
+   - python -m venv env
+   - source env/Scripts/activate    # Windows
 
 ### **3. Install Dependencies**
 
-- pip install -r requirements.txt
+   - pip install -r requirements.txt
 
 ## **Project Workflow**
 
 1. **Data Cleaning & Exploration**
 
-  - Handle missing values and outliers
-  - Explore distributions and relationships
+   - Handle missing values and outliers
+   - Explore distributions and relationships
 
 2. **Feature Engineering**
 
-  - Encode categorical variables
-  - Transform numeric variables
-  - Create geographic features
+   - Encode categorical variables
+   - Transform numeric variables
+   - Create geographic features
 
 3. **Model Development**
 
@@ -83,7 +83,7 @@ cd Water_Project_Tanzania
    - Model performance summary
    - Key findings from the data
 
-**Tools & Libraries**
+## **Tools & Libraries**
 
    - Python 3.x
    - Pandas, NumPy
@@ -91,6 +91,6 @@ cd Water_Project_Tanzania
    - Matplotlib, Seaborn
    - XGBoost / LightGBM
 
-  **Contributors**
+  ## **Contributors**
 Geetha (https://github.com/amgeetha)
 Mary (https://github.com/MaryMa-sketch)
