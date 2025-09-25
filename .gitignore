@@ -1,26 +1,4 @@
 env/
 
-git clone https://github.com/MaryMa-sketch/Water_Project_Tanzania.git
-cd Water_Project_Tanzania
+datafiles/
 
-python -m venv env
-source env/bin/activate   # Mac/Linux
-.\env\Scripts\activate    # Windows
-
-pip install -r requirements.txt
-
-daily workflow
-1.Update your local branch before coding
-git pull --rebase origin main
-
-2 . If you add a new library
-pip freeze > requirements.txt
-git add requirements.txt
-git commit -m "Add <library-name> dependency"
-
-3. Stage and commit your changes
-git add .
-git commit -m "Clear and descriptive message"
-
-4. Push your changes
-git push origin main
