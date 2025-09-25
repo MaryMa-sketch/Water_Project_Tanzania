@@ -41,11 +41,12 @@ git clone https://github.com/MaryMa-sketch/Water_Project_Tanzania.git
 cd Water_Project_Tanzania
 
 ### **3. Create README.md and .gitignore files**
+    - touch README.md.txt .gitignore.txt
 
 ### **2. Create a virtual environment**
 
-   - python -m venv env
-   - source env/Scripts/activate    # Windows
+    - python -m venv env
+    - source env/Scripts/activate    # Windows
 
 ### **3. Install Dependencies**
 
