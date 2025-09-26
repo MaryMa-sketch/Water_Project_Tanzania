@@ -80,9 +80,23 @@ cd Water_Project_Tanzania
 
    - Streamlit demo
 
+## **Collaboration Workflow**
+  - Always pull latest changes before starting work:
+     - git pull --rebase origin main
+
+  - Add and commit your changes:
+     - git add .
+     - git commit -m "Clear descriptive message"
+     - git push
+
+  - If you install a new library, update dependencies:
+     - pip freeze > requirements.txt
+
+
 **Results**
    - Model performance summary
    - Key findings from the data
+
 
 ## **Tools & Libraries**
 
