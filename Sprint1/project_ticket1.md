@@ -1,5 +1,5 @@
-
-# **Water_Project_Tanzania/**
+```text
+Water_Project_Tanzania/**
 ├── datafiles/
 │   ├── SubmissionFormat.csv
 │   ├── Test_set_values.csv
@@ -15,7 +15,7 @@
 ├── .gitignore
 ├── README.md
 ├── requirements.txt
-
+```
 
 
 # **Set up Github repository**
