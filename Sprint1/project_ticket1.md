@@ -1,5 +1,5 @@
 ```text
-Water_Project_Tanzania/**
+Water_Project_Tanzania/
 ├── datafiles/
 │   ├── SubmissionFormat.csv
 │   ├── Test_set_values.csv
