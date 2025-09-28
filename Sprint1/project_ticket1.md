@@ -2,9 +2,10 @@
 Water_Project_Tanzania/
 ├── datafiles/
 │   ├── SubmissionFormat.csv
-│   ├── Test_set_values.csv
-│   ├── Training_set_lables.csv
-│   └── Training_set_values.csv
+│   ├── Test_set.csv
+│   ├── Training_set.csv
+│   └── Training_set_lables.csv
+├── notebooks/
 ├── scr/
 ├── scripts/
 │   └── make_tree.py
@@ -15,6 +16,8 @@ Water_Project_Tanzania/
 ├── .gitignore
 ├── README.md
 ├── requirements.txt
+├── structure.txt
+└── test_set.ipynb
 ```
 
 
