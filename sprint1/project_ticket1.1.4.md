@@ -8,10 +8,10 @@ The project has 4 datasets:
      - Training set 
      - Training set labels(target variables)
 
-**Training_set** has 59400 rows and 40 feature columns
-**Test_set** has 14850 rows and 40 feature columns
-**Training set lables** - has Target variables(status_group) was merged to the Training_set
-**Features:**
+- **Training_set** has 59400 rows and 40 feature columns
+- **Test_set** has 14850 rows and 40 feature columns
+- **Training set lables** - has Target variables(status_group) was merged to the Training_set
+- **Features:**
    - **Categorical columns**: 'funder', 'installer', 'wpt_name', 'basin', 'lga', 'ward', 'public_meeting', 'recorded_by','scheme_management', 'scheme_name', 'permit', 'extraction_type', 'extraction_type_group', 'extraction_type_class', 'management',
     'management_group', 'payment', 'payment_type', 'water_quality', 'quality_group', 'quantity', 'quantity_group', 'source', 'source_type', 'source_class', 'waterpoint_type', 'waterpoint_type_group'
    - **Numerical columns**: 'amount_tsh', 'gps_height', 'longitude', 'latitude',
@@ -19,10 +19,10 @@ The project has 4 datasets:
    - **Temporal and location**: 'date_recorded', subvillage, region, ward, construction year
 
 **Data challenges**             
-**missing values** - scheme_name, scheme_management,installer, funder, public_meeting, permit, subvillage. scheme_name has almost 50% missing data.
-**class imbalance** - target distribution is skewed towards functional..e.g need repair is only 7%
-**incorrect entries** - 0 entries for construction year, population, Gps_height,longitude
-**Overlapping columns** :- extraction_type, Eéxtraction_type_group, extraction_type_class
+- **missing values** - scheme_name, scheme_management,installer, funder, public_meeting, permit, subvillage. scheme_name has almost 50% missing data.
+- **class imbalance** - target distribution is skewed towards functional..e.g need repair is only 7%
+- **incorrect entries** - 0 entries for construction year, population, Gps_height,longitude
+- **Overlapping columns** :- extraction_type, Eéxtraction_type_group, extraction_type_class
                          - payment, payment_type
                          - water quality and quality group
                          - quantity and quantity_group
