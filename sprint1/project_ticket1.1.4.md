@@ -29,13 +29,13 @@ The project has 4 datasets:
                          - source, source_type and source_class
                          - water_type and water_type_group
                           
-**Outliers** - amount_tsh, population
-**Abbrevations** - wpt_name, Iga 
-**Inconsistent category names** (spelling, case variables)- Taasaf and Tasaf, German republi and German republic, danida and danid, District counsil and District Counsil, 
+- **Outliers** - amount_tsh, population
+- **Abbrevations** - wpt_name, Iga 
+- **Inconsistent category names** (spelling, case variables)- Taasaf and Tasaf, German republi and German republic, danida and danid, District counsil and District Counsil, 
 
 
 
-# **Questions for analysis**
+## **Questions for analysis**
  - are zeros in population, construction year, longitude, amount_tsh truly zero or missing values?
  - should the overlapping columns be combined to one ?
  - how should we handle class imbalance? class weights vs oversampling
