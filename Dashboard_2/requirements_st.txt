@@ -7,4 +7,5 @@ import joblib, json
 import numpy as np
 import shap
 import matplotlib.pyplot as plt
-category-encoders
+import category_encoders as ce
+
