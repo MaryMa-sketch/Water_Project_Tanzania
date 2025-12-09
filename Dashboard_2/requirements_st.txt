@@ -1,10 +1,9 @@
-streamlit 
-base64
-pandas 
+streamlit
+pandas
+numpy
+scikit-learn
+xgboost
+category-encoders
 plotly
 joblib
-numpy
-shap
-matplotlib.pyplot
-category_encoders 
-
+matplotlib

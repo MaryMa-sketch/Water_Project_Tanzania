@@ -1,6 +1,5 @@
 import streamlit as st
-from PIL import Image
-import base64
+from PIL import Imagegi
 import pandas as pd
 import plotly.express as px
 import joblib, json
