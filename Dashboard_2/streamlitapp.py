@@ -6,6 +6,7 @@ import plotly.express as px
 import joblib, json
 import numpy as np
 from pathlib import Path
+import category_encoders as ce
 
 # preprocessing pipeline
 # --- Column groups ---
