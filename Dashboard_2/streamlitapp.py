@@ -7,7 +7,6 @@ import joblib, json
 import numpy as np
 from pathlib import Path
 
-
 # preprocessing pipeline
 # --- Column groups ---
 
@@ -23,22 +22,26 @@ def _coerce_object_and_nan(df: pd.DataFrame) -> pd.DataFrame:
     return df.replace({pd.NA: np.nan})
 
 
+# Base paths
+BASE_DIR = Path(__file__).parent
+MODEL_PATH = BASE_DIR / "best_xgb_pipe.pkl"
+LABEL_PATH = BASE_DIR / "inv_label_map.json"
+PRED_PATH  = BASE_DIR / "final_predictions.csv"
+
 @st.cache_data
 def load_data():
-    # Path to this script
-    base_dir = Path(__file__).parent
-    csv_path = base_dir / "final_predictions.csv"
-    df = pd.read_csv(csv_path)
+    df = pd.read_csv(PRED_PATH)
     return df
-
 
 @st.cache_resource
 def load_model_and_labels():
-    model = joblib.load("best_xgb_pipe.pkl")
-    with open("inv_label_map.json", "r") as f:
+    import joblib, json
+    model = joblib.load(MODEL_PATH)
+    with open(LABEL_PATH, "r") as f:
         inv_label_map = json.load(f)
     return model, inv_label_map
 
+# Load model + labels
 best_xgb_pipe, inv_label_map = load_model_and_labels()
 
 
