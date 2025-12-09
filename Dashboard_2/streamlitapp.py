@@ -5,7 +5,7 @@ import pandas as pd
 import plotly.express as px
 import joblib, json
 import numpy as np
-import shap
+
 
 # preprocessing pipeline
 # --- Column groups ---
