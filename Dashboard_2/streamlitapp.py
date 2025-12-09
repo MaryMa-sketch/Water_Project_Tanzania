@@ -5,6 +5,7 @@ import pandas as pd
 import plotly.express as px
 import joblib, json
 import numpy as np
+from pathlib import Path
 
 
 # preprocessing pipeline
@@ -22,13 +23,13 @@ def _coerce_object_and_nan(df: pd.DataFrame) -> pd.DataFrame:
     return df.replace({pd.NA: np.nan})
 
 
-
 @st.cache_data
 def load_data():
-    df = pd.read_csv("final_predictions.csv")  # <-- your file name here
+    # Path to this script
+    base_dir = Path(__file__).parent
+    csv_path = base_dir / "final_predictions.csv"
+    df = pd.read_csv(csv_path)
     return df
-
-df = load_data()
 
 
 @st.cache_resource
